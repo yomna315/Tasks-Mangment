@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tasks Team Mangment</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <div class="sweetPromt">
+      <div class="promt">
+        <div class="container">
+          <h3>👥 set up your team</h3>
+          <p>Enter team member names seprated by comma</p>
+          <input
+            type="text"
+            placeholder="e.g.Alice Adel , Alex John"
+            id="TeamNaming"
+          />
+          <p class="valid-naming"></p>
+          <button id="TeamNamingbtn">Create Board</button>
+        </div>
+      </div>
+    </div>
+    <main>
+      <header><h1>Tasks Team Mangment</h1></header>
+      <section>
+        <div class="Tasks-container">
+          <div class="header">
+            <h3>📋 Tasks Board</h3>
+            <span>0</span>
+          </div>
+          <div class="control-task">
+            <input type="text" placeholder="Add a task..." />
+            <button>Add</button>
+          </div>
+          <div class="tasks-unsigened"></div>
+        </div>
+      </section>
+    </main>
+    <script src="./src/main.js"></script>
+  </body>
+</html>
